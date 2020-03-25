@@ -17,14 +17,14 @@ public class BillingDetailsSteps
 	@Given("^Launch the chrome application$")
 	public void launch_the_chrome_application() throws Throwable
 	{
-	details = new BillingDetailsPage(driver);
+		details = new BillingDetailsPage(driver);
 	    details.launchBrowser("firefox");
 	}
 
 	@When("^To open Practice Automation  Website$")
 	public void to_open_Practice_Automation_Website() throws Throwable 
 	{
-	details.openWebsite();
+		details.openWebsite();
 	}
 
 	@Then("^Enter the Email and password in Login field$")
