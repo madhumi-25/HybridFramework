@@ -31,19 +31,19 @@ public class IncreaseQuantitySteps
 	@Then("^Enter Email and password in Login$")
 	public void enter_Email_and_password_in_Login() throws Throwable
 	{
-	    quantity.loginDetails(excel.username(3), excel.password(3));
+	    	quantity.loginDetails(excel.username(3), excel.password(3));
 	}
 
 	@Then("^Clicking Login Button$")
 	public void clicking_Login_Button() throws Throwable 
 	{
-	    quantity.clickLoginButton();
+	    	quantity.clickLoginButton();
 	}
 
 	@Then("^Click Shop icon  Click HTML and buy the book$")
 	public void click_Shop_icon_Click_HTML_and_buy_the_book() throws Throwable 
 	{
-	    quantity.htmlBookCategory();
+	    	quantity.htmlBookCategory();
 	}
 
 	@And("^View the cart, Increase quantity and update$")

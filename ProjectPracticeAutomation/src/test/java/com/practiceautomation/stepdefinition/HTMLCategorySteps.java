@@ -32,13 +32,13 @@ public class HTMLCategorySteps
 	@Then("^Enter Email and password in login field$")
 	public void enter_Email_and_password_in_login_field() throws Throwable 
 	{
-	    html.loginDetails(excel.username(2),excel.password(2));
+	    	html.loginDetails(excel.username(2),excel.password(2));
 	}
 
 	@Then("^Click on the Login Button$")
 	public void click_on_the_Login_Button() throws Throwable 
 	{
-	    html.clickLoginButton();
+	    	html.clickLoginButton();
 	}
 
 	@Then("^Click Shop icon, Click HTML and buy the book$")

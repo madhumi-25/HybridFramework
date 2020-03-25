@@ -26,13 +26,13 @@ public class FilterAddBooksToBasketSteps
 	@When("^open Practice automation website$")
 	public void open_Practice_automation_website() throws Throwable 
 	{
-		filter.openWebsite();
+			filter.openWebsite();
 	}
 
 	@Then("^Enter the Email and password in login$")
 	public void enter_the_Email_and_password_in_login() throws Throwable 
 	{
-	    filter.loginDetails(excel.username(1),excel.password(1));
+	    	filter.loginDetails(excel.username(1),excel.password(1));
 	}
 
 	@Then("^Click on Login Button$")
@@ -44,7 +44,7 @@ public class FilterAddBooksToBasketSteps
 	@Then("^Click Shop icon and Filter price using Slider$")
 	public void click_Shop_icon_and_Filter_price_using_Slider() throws Throwable 
 	{
-	    Thread .sleep(5000);
+	    	Thread .sleep(5000);
 		String sliderfilter=filter.sliderFilter();
 		String expectedurl="http://practice.automationtesting.in/shop/?min_price=394&max_price=500";
 		System.out.println(expectedurl);
@@ -55,6 +55,6 @@ public class FilterAddBooksToBasketSteps
 	@And("^Add the books to the basket and View the cart$")
 	public void add_the_books_to_the_basket_and_View_the_cart() throws Throwable 
 	{
-	    filter.addToBasketViewCartFilter();
+	    	filter.addToBasketViewCartFilter();
 	}
 }

@@ -17,20 +17,20 @@ public class BillingDetailsSteps
 	@Given("^Launch the chrome application$")
 	public void launch_the_chrome_application() throws Throwable
 	{
-		details = new BillingDetailsPage(driver);
+	details = new BillingDetailsPage(driver);
 	    details.launchBrowser("firefox");
 	}
 
 	@When("^To open Practice Automation  Website$")
 	public void to_open_Practice_Automation_Website() throws Throwable 
 	{
-		details.openWebsite();
+	details.openWebsite();
 	}
 
 	@Then("^Enter the Email and password in Login field$")
 	public void enter_the_Email_and_password_in_Login_field() throws Throwable 
 	{
-		details.loginDetails(excel.username(1),excel.password(1));
+	details.loginDetails(excel.username(1),excel.password(1));
 	}
 
 	@Then("^Clicking on Login Button$")
