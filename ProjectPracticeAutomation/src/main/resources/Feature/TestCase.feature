@@ -13,7 +13,7 @@ And Take screenshot
 Examples: 
 
 |email			|password	|
-|madhusavi1@gmail.com|madhuvickyrekha|
+|madhusavi1@gmail.com	|madhuvickyrekha	|
 |mavire@gmail.com	|mavire3456	|
 
 
