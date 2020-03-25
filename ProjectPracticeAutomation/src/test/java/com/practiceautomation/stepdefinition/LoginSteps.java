@@ -31,7 +31,7 @@ public class LoginSteps
 	@Then("^Enter valid and invalid \"([^\"]*)\" and \"([^\"]*)\" in Login$")
 	public void enter_valid_and_invalid_and_in_Login(String email, String password) throws Throwable
 	{
-	login.loginDetails(email,password);
+		login.loginDetails(email,password);
 	    Thread.sleep(3000);
 	}
 
