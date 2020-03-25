@@ -21,7 +21,7 @@ import cucumber.api.junit.Cucumber;
 		@AfterClass
 	    public static void writeExtentReport() 
 		{
-	        Reporter.loadXMLConfig("src/test/resources/extent-config.xml");  
-	    }
+	        	Reporter.loadXMLConfig("src/test/resources/extent-config.xml");  
+	    	}
 	}                                      
 
