@@ -12,9 +12,9 @@ And Take screenshot
 
 Examples: 
 
-|email				 |password		 |
+|email			|password	|
 |madhusavi1@gmail.com|madhuvickyrekha|
-|mavire@gmail.com	 |mavire3456	 |
+|mavire@gmail.com	|mavire3456	|
 
 
 @TC-02-Filtering_and_adding_books_to_Basket
