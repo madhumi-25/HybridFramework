@@ -15,13 +15,13 @@ import cucumber.api.junit.Cucumber;
 			glue = {"com.practiceautomation.stepdefinition"},
 			monochrome = true
 		)
+	
 	public class PracticeAutomationRunnerClass 
 	{
 		@AfterClass
 	    public static void writeExtentReport() 
 		{
-	        Reporter.loadXMLConfig("src/test/resources/extent-config.xml");
-	        
+	        Reporter.loadXMLConfig("src/test/resources/extent-config.xml");  
 	    }
 	}                                      
 
