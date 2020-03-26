@@ -135,14 +135,14 @@ formatter.match({
   "location": "LoginSteps.the_user_launch_the_Chrome_application()"
 });
 formatter.result({
-  "duration": 9132904900,
+  "duration": 21593920999,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 9253619700,
+  "duration": 12734966799,
   "status": "passed"
 });
 formatter.match({
@@ -159,21 +159,21 @@ formatter.match({
   "location": "LoginSteps.enter_valid_and_invalid_and_in_Login(String,String)"
 });
 formatter.result({
-  "duration": 15960346900,
+  "duration": 18727547100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_login_button()"
 });
 formatter.result({
-  "duration": 8279428100,
+  "duration": 9072383500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.Take_screenshot()"
 });
 formatter.result({
-  "duration": 13241109700,
+  "duration": 12485508000,
   "status": "passed"
 });
 formatter.scenario({
@@ -227,14 +227,14 @@ formatter.match({
   "location": "LoginSteps.the_user_launch_the_Chrome_application()"
 });
 formatter.result({
-  "duration": 3216584500,
+  "duration": 4568272500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 11534377000,
+  "duration": 13869342200,
   "status": "passed"
 });
 formatter.match({
@@ -251,21 +251,21 @@ formatter.match({
   "location": "LoginSteps.enter_valid_and_invalid_and_in_Login(String,String)"
 });
 formatter.result({
-  "duration": 13510504200,
+  "duration": 17665714201,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_login_button()"
 });
 formatter.result({
-  "duration": 5791206700,
+  "duration": 7462405500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.Take_screenshot()"
 });
 formatter.result({
-  "duration": 9180543600,
+  "duration": 12410565900,
   "status": "passed"
 });
 formatter.scenario({
@@ -316,42 +316,42 @@ formatter.match({
   "location": "FilterAddBooksToBasketSteps.launch_the_Chrome_browser()"
 });
 formatter.result({
-  "duration": 3320483100,
+  "duration": 4955940700,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterAddBooksToBasketSteps.open_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 6190899700,
+  "duration": 11332847999,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterAddBooksToBasketSteps.enter_the_Email_and_password_in_login()"
 });
 formatter.result({
-  "duration": 12222759100,
+  "duration": 15317772900,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterAddBooksToBasketSteps.click_on_Login_Button()"
 });
 formatter.result({
-  "duration": 7554003200,
+  "duration": 8749575300,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterAddBooksToBasketSteps.click_Shop_icon_and_Filter_price_using_Slider()"
 });
 formatter.result({
-  "duration": 37501835600,
+  "duration": 53893204400,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterAddBooksToBasketSteps.add_the_books_to_the_basket_and_View_the_cart()"
 });
 formatter.result({
-  "duration": 9754334400,
+  "duration": 9816790100,
   "status": "passed"
 });
 formatter.scenario({
@@ -402,43 +402,43 @@ formatter.match({
   "location": "HTMLCategorySteps.to_Launch_the_chrome_browser()"
 });
 formatter.result({
-  "duration": 11388910000,
+  "duration": 21548351000,
   "status": "passed"
 });
 formatter.match({
   "location": "HTMLCategorySteps.to_open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 71536426400,
+  "duration": 88811018201,
   "status": "passed"
 });
 formatter.match({
   "location": "HTMLCategorySteps.enter_Email_and_password_in_login_field()"
 });
 formatter.result({
-  "duration": 7508898800,
+  "duration": 7855190300,
   "status": "passed"
 });
 formatter.match({
   "location": "HTMLCategorySteps.click_on_the_Login_Button()"
 });
 formatter.result({
-  "duration": 8646484800,
+  "duration": 8651640700,
   "status": "passed"
 });
 formatter.match({
   "location": "HTMLCategorySteps.click_Shop_icon_Click_HTML_and_buy_the_book()"
 });
 formatter.result({
-  "duration": 29863848700,
-  "error_message": "java.lang.AssertionError: expected:\u003c4\u003e but was:\u003c3\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.practiceautomation.stepdefinition.HTMLCategorySteps.click_Shop_icon_Click_HTML_and_buy_the_book(HTMLCategorySteps.java:51)\r\n\tat ✽.Then Click Shop icon, Click HTML and buy the book(src/main/resources/Feature/TestCase.feature:36)\r\n",
-  "status": "failed"
+  "duration": 42488746800,
+  "status": "passed"
 });
 formatter.match({
   "location": "HTMLCategorySteps.view_the_cart_html_book()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 12949625300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 41,
@@ -488,42 +488,42 @@ formatter.match({
   "location": "IncreaseQuantitySteps.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 4041202100,
+  "duration": 8899225701,
   "status": "passed"
 });
 formatter.match({
   "location": "IncreaseQuantitySteps.to_open_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 14517970100,
+  "duration": 14887721000,
   "status": "passed"
 });
 formatter.match({
   "location": "IncreaseQuantitySteps.enter_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 13507356200,
+  "duration": 16731949100,
   "status": "passed"
 });
 formatter.match({
   "location": "IncreaseQuantitySteps.clicking_Login_Button()"
 });
 formatter.result({
-  "duration": 9824382200,
+  "duration": 12852785900,
   "status": "passed"
 });
 formatter.match({
   "location": "IncreaseQuantitySteps.click_Shop_icon_Click_HTML_and_buy_the_book()"
 });
 formatter.result({
-  "duration": 38758769500,
+  "duration": 50441800200,
   "status": "passed"
 });
 formatter.match({
   "location": "IncreaseQuantitySteps.view_the_cart_Increase_quantity_and_update()"
 });
 formatter.result({
-  "duration": 35739690100,
+  "duration": 37211679700,
   "status": "passed"
 });
 formatter.scenario({
@@ -579,49 +579,49 @@ formatter.match({
   "location": "BillingDetailsSteps.launch_the_chrome_application()"
 });
 formatter.result({
-  "duration": 9758402900,
+  "duration": 13579917600,
   "status": "passed"
 });
 formatter.match({
   "location": "BillingDetailsSteps.to_open_Practice_Automation_Website()"
 });
 formatter.result({
-  "duration": 71207433000,
+  "duration": 220144051400,
   "status": "passed"
 });
 formatter.match({
   "location": "BillingDetailsSteps.enter_the_Email_and_password_in_Login_field()"
 });
 formatter.result({
-  "duration": 9012707000,
+  "duration": 19710975499,
   "status": "passed"
 });
 formatter.match({
   "location": "BillingDetailsSteps.clicking_on_Login_Button()"
 });
 formatter.result({
-  "duration": 6523873300,
+  "duration": 10753113601,
   "status": "passed"
 });
 formatter.match({
   "location": "BillingDetailsSteps.click_Shop_button_Click_Selenium_buy_the_book_and_View_cart()"
 });
 formatter.result({
-  "duration": 26917653900,
+  "duration": 35558500701,
   "status": "passed"
 });
 formatter.match({
   "location": "BillingDetailsSteps.click_proceed_to_checkout_enter_the_mandatory_details_in_billing_details_and_click_place_order()"
 });
 formatter.result({
-  "duration": 27469817100,
+  "duration": 32462136799,
   "status": "passed"
 });
 formatter.match({
   "location": "BillingDetailsSteps.take_Screenshot_if_mandatory_fields_are_mising()"
 });
 formatter.result({
-  "duration": 10302853300,
+  "duration": 10418658600,
   "status": "passed"
 });
 });

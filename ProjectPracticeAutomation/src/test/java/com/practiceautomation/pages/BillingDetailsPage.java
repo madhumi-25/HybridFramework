@@ -83,6 +83,7 @@ public class BillingDetailsPage
 		//To open Practice Automation WebSite
 		public void openWebsite() throws InterruptedException 
 		{
+			Thread.sleep(3000);
 			driver.get("http://practice.automationtesting.in/");
 			System.out.println(driver.getTitle());
 			

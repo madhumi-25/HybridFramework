@@ -100,7 +100,7 @@ public class IncreaseQuantityPage
 			
 			Thread.sleep(5000);
 			driver.findElement(htmlcategoryclick).click();
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 			driver.findElement(htmladdtobasket1).click();
 			driver.findElement(htmladdtobasket2).click();
 			

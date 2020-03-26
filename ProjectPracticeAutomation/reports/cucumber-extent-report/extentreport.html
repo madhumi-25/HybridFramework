@@ -41,7 +41,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
@@ -51,7 +50,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Mar 25, 2020 11:05:04 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Mar 26, 2020 04:43:49 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -67,8 +66,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -126,10 +123,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -140,10 +137,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='83.333%'><span class='strong'>5</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>1</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -154,10 +151,10 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='94.286%'><span class='strong'>33</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>35</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='2.857%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='2.857%'>1</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -175,11 +172,11 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Testing the practice automation website</span>
-						<span class='test-time'>Mar 25, 2020 11:05:04 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Mar 26, 2020 04:43:52 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -189,7 +186,7 @@
     <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenariooutline node' test-id='2' status='pass'>
-    <span class='duration right label'>0h 1m 39s+264ms</span>
+    <span class='duration right label'>0h 2m 10s+744ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> ScenarioOutline: To check if the user is able to login with valid details</div>
     </div>
@@ -250,7 +247,7 @@
     <div class='category-list'>
         <span class='category label'>@TC-02-Filtering_and_adding_books_to_Basket</span>
     </div>
-    <span class='duration right label'>0h 1m 16s+577ms</span>
+    <span class='duration right label'>0h 1m 44s+97ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To check if the user is able to add the books in the basket on the filtered price</div>
     </div>
@@ -281,13 +278,13 @@
         </li>
     </ul>
 </div>
-<div class='scenario node' test-id='22' status='fail'>
+<div class='scenario node' test-id='22' status='pass'>
     <div class='category-list'>
         <span class='category label'>@TC_03_Adding_books_from_HTML_Category</span>
     </div>
-    <span class='duration right label'>0h 2m 9s+88ms</span>
+    <span class='duration right label'>0h 3m 2s+380ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: To check if the user is able to buy books from HTML category</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To check if the user is able to buy books from HTML category</div>
     </div>
     <ul class='steps'>
         <li test-id='23' class='node given pass' status='pass'>
@@ -306,20 +303,13 @@
             <div class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click on the Login Button</div>
                 <div class="node-step">passed</div>
         </li>
-        <li test-id='27' class='node then fail' status='fail'>
-            <div class="step-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then Click Shop icon, Click HTML and buy the book</div>
-                <textarea disabled class="code-block">java.lang.AssertionError: expected:<4> but was:<3>
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:120)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.practiceautomation.stepdefinition.HTMLCategorySteps.click_Shop_icon_Click_HTML_and_buy_the_book(HTMLCategorySteps.java:51)
-	at ?.Then Click Shop icon, Click HTML and buy the book(src/main/resources/Feature/TestCase.feature:36)
-</textarea>
+        <li test-id='27' class='node then pass' status='pass'>
+            <div class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click Shop icon, Click HTML and buy the book</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='28' class='node and skip' status='skip'>
-            <div class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And View the cart html book</div>
-                <div class="node-step">skipped</div>
+        <li test-id='28' class='node and pass' status='pass'>
+            <div class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And View the cart html book</div>
+                <div class="node-step">passed</div>
         </li>
     </ul>
 </div>
@@ -327,7 +317,7 @@
     <div class='category-list'>
         <span class='category label'>@TC_04_Adding_books_from_HTML_Category_and_increase_quantity_update</span>
     </div>
-    <span class='duration right label'>0h 1m 56s+412ms</span>
+    <span class='duration right label'>0h 2m 21s+52ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To check if the user is able to buy books from HTML category and increase quantity</div>
     </div>
@@ -362,7 +352,7 @@
     <div class='category-list'>
         <span class='category label'>@TC_05_Checking_Mandatory_fields_in_Billing_details</span>
     </div>
-    <span class='duration right label'>0h 2m 41s+224ms</span>
+    <span class='duration right label'>0h 5m 42s+663ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: To check if the mandatory fields are not entered,throws an appropriate error message</div>
     </div>
@@ -441,14 +431,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Practice_Automation_Project</span>
 						<span class='category-status right'>
-						<span class='label pass'>2</span>
-						<span class='label fail'>1</span>
+						<span class='label pass'>3</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
-							<span class='label red lighten-1 white-text'>Failed: 1</span>
+							<span class='label green accent-4 white-text'>Passed: 3</span>
+							
 							
 						</div>
 						<div class='category-tests'>
@@ -462,17 +451,17 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 11:05:04 PM</td>
+										<td>Mar 26, 2020 04:43:52 PM</td>
 										<td class='linked' test-id='1'>Testing the practice automation website</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 25, 2020 11:05:04 PM</td>
+										<td>Mar 26, 2020 04:43:52 PM</td>
 										<td class='linked' test-id='3'>Testing the practice automation website.To check if the user is able to login with valid details.To check if the user is able to login with valid details</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 25, 2020 11:06:00 PM</td>
+										<td>Mar 26, 2020 04:45:06 PM</td>
 										<td class='linked' test-id='9'>Testing the practice automation website.To check if the user is able to login with valid details.To check if the user is able to login with valid details</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -505,12 +494,12 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 11:05:04 PM</td>
+										<td>Mar 26, 2020 04:43:52 PM</td>
 										<td class='linked' test-id='3'>Testing the practice automation website.To check if the user is able to login with valid details.To check if the user is able to login with valid details</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 25, 2020 11:06:00 PM</td>
+										<td>Mar 26, 2020 04:45:06 PM</td>
 										<td class='linked' test-id='9'>Testing the practice automation website.To check if the user is able to login with valid details.To check if the user is able to login with valid details</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -543,7 +532,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 11:06:44 PM</td>
+										<td>Mar 26, 2020 04:46:02 PM</td>
 										<td class='linked' test-id='15'>Testing the practice automation website.To check if the user is able to add the books in the basket on the filtered price</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -556,13 +545,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@TC_03_Adding_books_from_HTML_Category</span>
 						<span class='category-status right'>
-						<span class='label fail'>1</span>
+						<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
-							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -576,9 +565,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 11:08:00 PM</td>
+										<td>Mar 26, 2020 04:47:47 PM</td>
 										<td class='linked' test-id='22'>Testing the practice automation website.To check if the user is able to buy books from HTML category</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -609,7 +598,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 11:10:09 PM</td>
+										<td>Mar 26, 2020 04:50:49 PM</td>
 										<td class='linked' test-id='29'>Testing the practice automation website.To check if the user is able to buy books from HTML category and increase quantity</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -642,7 +631,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 11:12:06 PM</td>
+										<td>Mar 26, 2020 04:53:10 PM</td>
 										<td class='linked' test-id='36'>Testing the practice automation website.To check if the mandatory fields are not entered,throws an appropriate error message</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -660,69 +649,7 @@
 		</div>
 	</div>
 </div>
-<!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.AssertionError</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Mar 25, 2020 11:09:39 PM</td>
-										<td class='linked' test-id='27'>Testing the practice automation website.To check if the user is able to buy books from HTML category.Then Click Shop icon, Click HTML and buy the book</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: expected:<4> but was:<3>
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:120)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.practiceautomation.stepdefinition.HTMLCategorySteps.click_Shop_icon_Click_HTML_and_buy_the_book(HTMLCategorySteps.java:51)
-	at ?.Then Click Shop icon, Click HTML and buy the book(src/main/resources/Feature/TestCase.feature:36)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -748,19 +675,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 25, 2020 11:05:04 PM</div>
+					<div class='panel-lead'>Mar 26, 2020 04:43:49 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 25, 2020 11:14:47 PM</div>
+			 		<div class='panel-lead'>Mar 26, 2020 04:58:53 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 9m 43s+612ms</div>
+					<div class='panel-lead'>0h 15m 3s+500ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -777,11 +704,11 @@
 						</tr>
 						<tr>
 							<td>@Practice_Automation_Project</td>
-							<td>2</td>
-							<td>1</td>
+							<td>3</td>
+							<td>0</td>
 							<td>0</td>
 							<td>
-									66.667%
+									100%
 							</td>
 						</tr>
 						<tr>
@@ -804,11 +731,11 @@
 						</tr>
 						<tr>
 							<td>@TC_03_Adding_books_from_HTML_Category</td>
-							<td>0</td>
 							<td>1</td>
 							<td>0</td>
+							<td>0</td>
 							<td>
-									0%
+									100%
 							</td>
 						</tr>
 						<tr>
@@ -841,38 +768,38 @@
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				childCount: 6,
-				passChild: 5,
-				failChild: 1,
+				passChild: 6,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 1,
+				exceptionsChild: 0,
 				grandChildCount: 35,
-				passGrandChild: 33,
-				failGrandChild: 1,
+				passGrandChild: 35,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 1,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 2,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Testing the practice automation website":582.627
+			        "Testing the practice automation website":901.017
 			};
 		</script>
 		<script src='http://cdn.rawgit.com/extent-framework/extent-github-cdn/c23457b/v3html/js/extent.js' type='text/javascript'></script>

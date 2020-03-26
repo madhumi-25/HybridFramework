@@ -47,8 +47,8 @@ public class HTMLCategorySteps
 		Thread.sleep(2000);
 		int actual=html.htmlBookCategory();
 		System.out.println("Total number of HTML books Available: "+actual);			//Only 3 books will be available
-		String expected = "4";
-		Assert.assertEquals(expected, actual);			//assert condition get fail
+		int expected = 3;
+		Assert.assertEquals(expected, actual);			//assert condition get pass
 		return actual;
 	}
 
