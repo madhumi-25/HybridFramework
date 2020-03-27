@@ -18,6 +18,7 @@ import cucumber.api.junit.Cucumber;
 	
 	public class PracticeAutomationRunnerClass 
 	{
+		//Extent report generation
 		@AfterClass
 	    public static void writeExtentReport() 
 		{
